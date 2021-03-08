@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/ -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>EquipamentosPDO</title>
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./bootstrap/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Equipamentos PDO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <h3 class="mt-5">Cadastro de Ferramentas</h3>
+      <form action="cadastrar" method="post">
+	  	<div class="form-row">
+	  		<div class="form-group col-md-6">
+			    <label for="inputHostname">Hostname</label>
+			    <input type="text" class="form-control" name="inputHostname" value="ramon-pc" placeholder="Hostname">
+			</div>
+			<div class="form-group col-md-6">
+			    <label for="inputMascara">Mascara</label>
+			    <input type="text" class="form-control" name="inputMascara"  value="255.255.255.0" placeholder="Mascara">
+			</div>
+			<div class="form-group col-md-6">
+			 	<label for="inputIp1">IP1</label>
+			    <input type="text" class="form-control" name="inputIp1" value="192.168.0.10" placeholder="IP1">
+			</div>
+			<div class="form-group col-md-6">
+			    <label for="inputIp2">IP2</label>
+			    <input type="text" class="form-control" name="inputIp2" value="192.168.0.10" placeholder="IP2">
+			</div>
+			
+			<div class="form-group col-md-6">
+			    <label for="inputDescricao">Descrição</label>
+			    <textarea class="form-control" name="inputDescricao" rows="3">Meu PC</textarea>
+			</div>
+		</div>
+		<div class="form-row">
+			
+			<div class="form-group col-md-6">
+			    <label for="inputGateway">Gateway</label>
+			    <input type="text" class="form-control" name="inputGateway" value="192.168.0.1" placeholder="Gateway">
+			</div>
+			<div class="form-group col-md-6">
+			    <label for="inputTipo">Tipo</label>
+			    <input type="text" class="form-control" name="inputTipo" value="Fisica" placeholder="Tipo">
+			</div>
+			<div class="form-group col-md-6">
+			    <label for="inputBatismo">Batismo</label>
+			    <input type="text" class="form-control" name="inputBatismo" value="123456" placeholder="Batismo">
+			</div>
+			<div class="form-group col-md-6">
+			    <label for="inputSerialNumber">Serial Number</label>
+			    <input type="text" class="form-control" name="inputSerialNumber" value="12345679" placeholder="Serial Number">
+			</div>
+			<div class="form-group col-md-6">
+			    <label for="inputServico">Serviço</label>
+			    <input type="text" class="form-control" name="inputServico" value="Desktop" placeholder="Serviço">
+			</div>
+		</div>
+			  
+			  
+		
+		  <button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./bootstrap/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+  
+
+</body></html>

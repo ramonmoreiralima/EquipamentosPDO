@@ -1,0 +1,23 @@
+CREATE DATABASE equipamentos_pdo;
+CREATE TABLE `endereco` (
+  `id_endereco` int(11) NOT NULL AUTO_INCREMENT,
+  `rua` varchar(50) NOT NULL DEFAULT '0',
+  `numero` int(11) NOT NULL DEFAULT 0,
+  `complemento` varchar(50) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id_endereco`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `equipamento` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `hostname` varchar(50) DEFAULT NULL,
+  `descricao` varchar(50) DEFAULT NULL,
+  `ip1` varchar(50) DEFAULT NULL,
+  `ip2` varchar(50) DEFAULT NULL,
+  `mascara` varchar(50) DEFAULT NULL,
+  `gateway` varchar(50) DEFAULT NULL,
+  `tipo` varchar(50) DEFAULT NULL,
+  `batismo` varchar(50) DEFAULT NULL,
+  `serialNumber` varchar(50) DEFAULT NULL,
+  `servico` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
